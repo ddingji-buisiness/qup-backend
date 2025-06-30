@@ -9,3 +9,8 @@ class DdingSpringApplication
 fun main(args: Array<String>) {
     runApplication<DdingSpringApplication>(*args)
 }
+
+fun add(a : Int) {
+    return a;
+}
+
