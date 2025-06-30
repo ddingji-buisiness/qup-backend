@@ -1,11 +1,11 @@
-package com.dding.ddingspring
+package com.qup.backend
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class DdingSpringApplication
+class QupSpringApplication
 
 fun main(args: Array<String>) {
-    runApplication<DdingSpringApplication>(*args)
+    runApplication<QupSpringApplication>(*args)
 }
