@@ -1,0 +1,6 @@
+package com.rallyup.backend.domain.feed.enum
+
+enum class FeedItemType {
+    PERSONAL_MATCH, CLAN_DNA, CLAN_SPONSORED, EMERGENCY_SUBSTITUTE,
+    TRENDING_CLAN, SYSTEM_ANNOUNCEMENT, FRIEND_ACTIVITY
+}

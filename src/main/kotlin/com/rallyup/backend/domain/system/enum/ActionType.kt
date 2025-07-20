@@ -1,0 +1,25 @@
+package com.rallyup.backend.domain.system.enum
+
+enum class ActionType {
+    // 인증 관련
+    LOGIN, LOGOUT, REGISTER,
+
+    // 매칭 관련
+    SIGNAL_CREATED, SIGNAL_RESPONDED, SIGNAL_CANCELLED,
+    SESSION_JOINED, SESSION_LEFT,
+
+    // 클랜 관련
+    CLAN_CREATED, CLAN_JOINED, CLAN_LEFT, CLAN_APPLICATION_SUBMITTED,
+
+    // 프로필 관련
+    PROFILE_UPDATED, GAMBTI_COMPLETED,
+
+    // 피드백 관련
+    FEEDBACK_GIVEN, FEEDBACK_RECEIVED,
+
+    // 결제 관련
+    PREMIUM_PURCHASED, PREMIUM_CANCELLED,
+
+    // 신고/제재 관련
+    REPORT_SUBMITTED, USER_BLOCKED, USER_WARNED
+}
